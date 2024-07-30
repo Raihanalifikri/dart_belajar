@@ -6,16 +6,19 @@ import 'fish.dart';
 
 
 void main() {
-  Cat animal1 = Cat("Moka", 3, "crem", "blue");
+  Animal animal1 = Cat("Moka", 3, "crem", "blue");
   animal1.eat();
-  animal1.meow();
+  Cat cat = Cat("Wisky", 2, "gray", "blue");
+  cat.meow();
 
-  Dog animal2 = Dog("Dogi", 4, "black", "panjang");
+  Animal animal2 = Dog("Dogi", 4, "black", "panjang");
   animal2.eat();
-  animal2.woof();
+  Dog dog = Dog("NYC", 2, "brown", "black");
+  dog.woof();
 
-  Fish animal3 = Fish("Dori", 2, "blue", "bagus");
+  Animal animal3 = Fish("Dori", 2, "blue", "bagus");
   animal3.eat();
-  animal3.swim();
+  Fish fish = Fish("Nemo", 2, "Orange", "black");
+  fish.swim();
 
 }
