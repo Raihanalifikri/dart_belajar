@@ -7,6 +7,4 @@ void main() {
   kitty.catKitty();
  kitty.food();
  kitty.sleep();
-
- var kittenInfo = kitten("moka", 9, 1.8, "putih", 'kue', "blue", "lancip");
 }
