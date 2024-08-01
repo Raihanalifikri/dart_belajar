@@ -36,6 +36,10 @@ void main() {
   siswa2.add('Joko pedia');
   print(siswa2);
 
+  // Menghapus element dari list berdesarkan kondisi
+  siswa.removeWhere((element) => element.contains('Joko pedia'));
+  print(siswa);
+
   siswa.addAll(siswa2);
   print(siswa);
 
